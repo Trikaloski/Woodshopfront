@@ -2,6 +2,8 @@ import React from 'react';
 import './footer.css';
 import {FaFacebookF} from "react-icons/fa"
 import {FaInstagram} from "react-icons/fa"
+import {FaTwitter} from "react-icons/fa"
+import {FaYoutube} from "react-icons/fa"
 class Footer extends React.Component {
 render() {
     return (
@@ -12,7 +14,7 @@ render() {
                     <div class="box">
                         <figure>
                             <a href="#">
-                                <img src="./img/avion.png" alt="avion"/>
+                                <img src="./img/Camion.png" alt="Camion"/>
                             </a>
                         </figure>
                     </div>
@@ -26,8 +28,8 @@ render() {
                         <div class="red-social">
                             <a href="#" class=""><FaFacebookF/></a>
                             <a href="#" class=""><FaInstagram/></a>
-                            <a href="#" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-youtube"></a>
+                            <a href="#" class=""><FaTwitter/></a>
+                            <a href="#" class=""><FaYoutube/></a>
                         </div>
                     </div>
                 </div>
